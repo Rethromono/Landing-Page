@@ -7,8 +7,6 @@ body {
     min-width: 500px;
 }
 
-.main {}
-
 
 
 .headercolour {
@@ -87,6 +85,18 @@ button {
     color: white;
 }
 
+.whiteborder {
+    font-weight: bold;
+    margin-top: 8px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
 
 
 .information {
@@ -109,26 +119,29 @@ button {
     flex-direction: row;
     gap: 40px;
 }
+
 .informationboxes {
-width: 140px;
+    width: 140px;
 }
 
-.informationboxes, p {
+.informationboxes,
+p {
     margin: 5px 0;
- text-align: center;
+    text-align: center;
 }
 
 .informationimages {
- width: 140px;
- height: 140px;
- border: #3882F6;
- border-style: solid;
- border-radius:  8px;
+    width: 140px;
+    height: 140px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 8px;
 }
 
 .quotecolour {
     background-color: #E5E7EB;
 }
+
 .quote {
     display: flex;
     width: 700px;
@@ -138,7 +151,9 @@ width: 140px;
     align-items: center;
     padding: 120px 0;
 }
-.thequote{
+
+.thequote {
+    text-align: left;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
@@ -152,6 +167,29 @@ width: 140px;
 }
 
 
-.signup {}
+.signup {
+    background-color: #3882F6;
+    display: flex;
+    margin: 120px auto;
+    padding: 50px 0px;
+    border-radius: 8px;
+    width: 1000px;
+    justify-content: space-around;
+    align-content: center
+}
+
+.signuptext {
+    color: #F9FAF8;
+}
+
+.signuptext p {
+    text-align: left;
+}
+
+.signuptitle{
+    font-size: 20px;
+    font-weight: 900;
+}
+
 
 .footer {}
